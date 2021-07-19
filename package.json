@@ -1,0 +1,30 @@
+{
+  "name": "react-ts-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xyeres/react-ts-todo.git",
+  "author": "Michael Carr <xyeres@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "26.0.24",
+    "@types/node": "16.3.3",
+    "@typescript-eslint/eslint-plugin": "4.28.4",
+    "@typescript-eslint/parser": "4.28.4",
+    "eslint": "7.31.0",
+    "eslint-config-prettier": "8.3.0",
+    "jest": "27.0.6",
+    "nodemon": "2.0.12",
+    "prettier": "2.3.2",
+    "rimraf": "3.0.2",
+    "ts-jest": "27.0.3",
+    "ts-node": "10.1.0",
+    "typescript": "4.3.5"
+  },
+  "scripts": {
+    "start": "nodemon",
+    "build": "tsc -p .",
+    "clean": "rimraf lib",
+    "prebuild": "yarn clean",
+    "test": "jest"
+  }
+}

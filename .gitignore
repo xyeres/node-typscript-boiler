@@ -1,0 +1,8 @@
+# Log files
+*.log
+
+# Ignore our build files
+lib
+
+# Ignore node dependencies
+node_modules
